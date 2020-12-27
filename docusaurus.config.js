@@ -3,18 +3,6 @@ module.exports = {
   tagline: 'Open Source Rapid Application Framework for .Net 5',
   url: 'https://DevArchitecture.net',
   baseUrl: '/',
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-    localeConfigs: {
-      en: {
-        label: 'English',
-      },
-      fr: {
-        label: 'Français',
-      },
-    },
-  },
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -29,7 +17,8 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'right',
-        },       
+        }, 
+        { search: true },      
         {
           href: 'https://github.com/DevArchitecture',
           label: 'DevArchitecture GitHub',
