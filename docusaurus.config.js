@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'DevArchitecture', // Usually your GitHub org/user name.
+  projectName: 'DevArchitecture', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'DevArchitecture',
@@ -70,11 +70,10 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/DevArchitecture',
+          //editUrl:'https://github.com/DevArchitecture',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           editUrl:
             'https://github.com/DevArchitecture',
