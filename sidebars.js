@@ -1,8 +1,8 @@
 module.exports = {
   someSidebar: {
-    DevArchitecture : ['hellomarkdown','kerem'],
+    DevArchitecture : ['baslarken','kurulum','veritabani','ortamkurulumu','yeniproje','projekatmanlari'
+    ,'projegelistirmeyaklasimlari','migration','testrutinleri','projecalistirmawebapi','projecalistirmaangular','projeyayinlama'],
     Features: ['mdx'],
-    Docusaurus : ['doc1', 'doc2', 'doc3'] 
-   
+    //Docusaurus : ['doc1', 'doc2', 'doc3']    
   },
 };
