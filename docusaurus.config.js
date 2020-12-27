@@ -18,7 +18,11 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         }, 
-        { search: true },      
+        {
+          to: 'teams',         
+          label: 'Teams',
+          position: 'right',
+        },       
         {
           href: 'https://github.com/DevArchitecture',
           label: 'DevArchitecture GitHub',
@@ -73,8 +77,8 @@ module.exports = {
           // Please change this to your repo.
           //editUrl:'https://github.com/DevArchitecture',
         },
-        blog: {
-          showReadingTime: false,
+        teams: {
+          showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/DevArchitecture',

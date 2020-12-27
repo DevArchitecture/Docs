@@ -24,6 +24,10 @@
   padding: 0 var(--ifm-pre-padding);
 }
 .docTitle_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem- {
-  font-size: 2rem !important;
+  font-size: 2rem !important; 
   margin-bottom: calc(var(--ifm-leading-desktop) * var(--ifm-leading));
+}
+.docTitle_1Lrw {
+  font-size: 2rem !important;
+  margin-bottom: calc(var(--ifm-leading-desktop)*var(--ifm-leading));
 }
