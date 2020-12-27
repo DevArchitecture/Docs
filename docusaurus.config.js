@@ -1,6 +1,6 @@
 module.exports = {
   title: 'DevArchitecture',
-  tagline: 'The tagline of DevArchitecture',
+  tagline: 'Open Source Rapid Application Framework for .Net 5',
   url: 'https://DevArchitecture.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,21 +11,16 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'DevArchitecture',
-      logo: {
-        alt: 'DevArchitecture Logo',
-        src: 'img/logo.svg',
-      },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        },       
         {
-          href: 'https://github.com/keremvaris/sennedjem',
-          label: 'GitHub',
+          href: 'https://github.com/DevArchitecture',
+          label: 'DevArchitecture GitHub',
           position: 'right',
         },
       ],
@@ -35,15 +30,11 @@ module.exports = {
       links: [
         {
           title: 'Docs',
-          items: [
+          items: [ 
             {
-              label: 'Style Guide',
+              label: 'Documents',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            },                   
           ],
         },
         {
@@ -51,28 +42,20 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/DevArchitecture',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/DevArchitecture',
             },
           ],
         },
         {
           title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
+          items: [            
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/DevArchitecture',
             },
           ],
         },
@@ -88,13 +71,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/DevArchitecture',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/DevArchitecture',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
