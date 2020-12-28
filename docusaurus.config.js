@@ -13,14 +13,14 @@ module.exports = {
       title: 'DevArchitecture',
       items: [
         {
-          to: 'docs/',
+          to: 'docs',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Dokümanlar',
           position: 'right',
         }, 
         {
-          to: 'teams',         
-          label: 'Teams',
+          to: 'team',         
+          label: 'Ekibimiz',
           position: 'right',
         },       
         {
@@ -34,16 +34,16 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Dokümanlar',
           items: [ 
             {
-              label: 'Documents',
+              label: 'Dokümanlar',
               to: 'docs/',
             },                   
           ],
         },
         {
-          title: 'Community',
+          title: 'Topluluk',
           items: [
             {
               label: 'Stack Overflow',
@@ -61,13 +61,17 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/DevArchitecture',
+            },            
+            {
+              label: 'LinkedIn',
+              href: 'https://linkedin.com/company/DevArchitecture',
             },
           ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} DevArchitecture, Inc. Built with Docusaurus.`,
     },
-  },
+  }, 
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -77,7 +81,7 @@ module.exports = {
           // Please change this to your repo.
           //editUrl:'https://github.com/DevArchitecture',
         },
-        teams: {
+        team: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:

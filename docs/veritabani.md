@@ -7,6 +7,6 @@ title: Veri Tabanı Altyapısı
     kullanılabilir.
 
 -   Ön Tanımlı olarak **InMemoryDb, PostgreSql** ve **Microsoft Sql
-    Server** desteği.
+    Server** desteği ile hazır olarak gelmektedir.
 
 -   **MongoDB** desteği.

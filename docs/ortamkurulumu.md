@@ -10,12 +10,16 @@ kurulur. Marketplace üzerinde 3 adet extension bulunmaktadır.
 
 ![](./media/image1.png)
 
-1.  DevArchitecture WebAPI Şablon
+1.  *DevArchitecture WebAPI Şablon*
 
-2.  DevArchitecture WebAPI ve Angular Şablon
+2.  *DevArchitecture WebAPI ve Angular Şablon*
 
-3.  DevArchitecture Code Generator
+3.  *DevArchitecture Code Generator*
 
-1 ve 2 numaralı şablonlardan istenilen veya her ikisi de indirilir. Code
-Generator DevArchitecture ekibi tarafından indirilmesi ve kullanılması
+**1** ve **2** numaralı şablonlardan istenilen veya her ikisi de indirilir. *Code
+Generator* **DevArchitecture** ekibi tarafından indirilmesi ve kullanılması
 tavsiye edilmektedir.
+![](./media/image25.png)
+
+### NOT: 
+***Bu kurumlar yapılırken Visual Studio Geliştirme ortamınızın kapalı olduğundan emin olunuz.***

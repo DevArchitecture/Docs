@@ -2,8 +2,15 @@
 id: yeniproje
 title: Yeni Bir Proje Oluşturma
 ---
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>{children}</span> );
 
-Visual Studio 2019 açılır. Create a new project seçeneği tıklanır.
+
+*Visual Studio 2019* açılır. **Create a new project** seçeneği tıklanır.
 
 ![](./media/image2.png)
 
@@ -15,8 +22,8 @@ Angular Project** proje şablonu seçilir.
 
 Proje şablonu seçildikten sonra **Next** butonuna basılır. Gelen ekranda
 Projeye verilecek olan isim ve projenin dosya sistemindeki konumu
-belirlenir. Burada kırmızı çerçeveyle işaretlenmiş **Place solution and
-Project in the same directory** seçeneğinin işaretli olduğuna emin
+belirlenir. Burada kırmızı çerçeveyle işaretlenmiş ***<Highlight color="#FF0000">Place solution and
+Project in the same directory</Highlight>*** seçeneğinin işaretli olduğuna emin
 olunuz. Sonrasında **Create** butonuna basılarak proje şablonu hazır
 hale getirilir.![](./media/image4.png)
 

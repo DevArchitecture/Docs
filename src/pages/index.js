@@ -12,10 +12,10 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        DevArchitecture is a software development infrastructure that adopts
-        CQRS (Command Query Responsibility Segregation) approach and 
-        focuses on SOLID principles and Clean Architecture methods. 
-        RabbitMq is very skilled in integrating with ElasticSearch, etc.
+        DevArchitecture CQRS (Command Query Responsibility Segregation) ve 
+        AOP (Aspect Oriented Programming) yaklaşımını benimseyen, SOLID prensiplerini ve 
+        Temiz Mimari yöntemlerini odağında bulunduran, modüler PnP (Plug and Play) 
+        mimarisine uygun hızlı yazılım geliştirme alt yapısıdır.
       </>
     ),
   },
@@ -24,10 +24,10 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        DevArchitecture is a software development infrastructure that adopts
-        CQRS (Command Query Responsibility Segregation) approach and 
-        focuses on SOLID principles and Clean Architecture methods. 
-        RabbitMq is very skilled in integrating with ElasticSearch, etc.
+        DevArchitecture CQRS (Command Query Responsibility Segregation) ve 
+        AOP (Aspect Oriented Programming) yaklaşımını benimseyen, SOLID prensiplerini ve 
+        Temiz Mimari yöntemlerini odağında bulunduran, modüler PnP (Plug and Play) 
+        mimarisine uygun hızlı yazılım geliştirme alt yapısıdır.
       </>
     ),
   },
@@ -36,10 +36,10 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        DevArchitecture is a software development infrastructure that adopts
-        CQRS (Command Query Responsibility Segregation) approach and 
-        focuses on SOLID principles and Clean Architecture methods. 
-        RabbitMq is very skilled in integrating with ElasticSearch, etc.
+        DevArchitecture CQRS (Command Query Responsibility Segregation) ve 
+        AOP (Aspect Oriented Programming) yaklaşımını benimseyen, SOLID prensiplerini ve 
+        Temiz Mimari yöntemlerini odağında bulunduran, modüler PnP (Plug and Play) 
+        mimarisine uygun hızlı yazılım geliştirme alt yapısıdır.
       </>
     ),
   }, 

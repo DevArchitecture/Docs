@@ -14,6 +14,8 @@ ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Ancak
 
 -   .net Core 5 ve üzeri
 
--   Nodejs (Front-end için opsiyonel)
+-   Nodejs (**Front-end için opsiyonel**)
 
--   Angular UI için VsCode (Front-end için opsiyonel)
+-   Angular UI için VsCode (**Front-end için opsiyonel**)
+
+***Minimum sistem gereksinimleridir.***

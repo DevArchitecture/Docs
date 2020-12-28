@@ -5,15 +5,15 @@ title: Proje Geliştirme Yaklaşımları
 
 ## Code First
 
-Code First yaklaşımında iki seçenek ile çalışabilirsiniz
+*Code First* yaklaşımında iki seçenek ile çalışabilirsiniz
 
-1.  İlişkisel veri tabanı
+1.  *İlişkisel veri tabanı*
 
-2.  Dokuman odaklı veri tabanı
+2.  *Dokuman odaklı veri tabanı*
 
 ### İlişkisel Veri Tabanı 
 
-Code First yaklaşımında ilişkisel bir veri tabanı (RDBMS) varlık nesnesi
+*Code First* yaklaşımında ilişkisel bir veri tabanı (*RDBMS*) varlık nesnesi
 oluşturulacaksa **Entities** katmanında **Concrete** klasörü altında
 oluşturulmalıdır.
 
@@ -39,13 +39,13 @@ ile çalışmak istediğinizi buradan anlayacak ve ona göre kod üreteci
 ilgili metot ve sınıfları üretecektir.
 
 Bu sınıflarda ilişkisel veritabanlarında kullanılan **Birincil Anahtar**
-(Primary Key) temsil eden property yazılması tavsiye edilmemektedir.
+(*Primary Key*) temsil eden property yazılması tavsiye edilmemektedir.
 **DocumentDbEntity** abstract sınıfı içinde **MongoDB** için **ObjectId
 anahtarı** miras olarak aktarılmaktadır.
 
 ![](./media/image7.png)
 
-MongoDB için örnek sınıf yazımı aşağıdaki şekilde sunulmuştur.
+**MongoDB** için örnek sınıf yazımı aşağıdaki şekilde sunulmuştur.
 
 ![](./media/image8.png)
 
@@ -71,7 +71,7 @@ Aşağıdaki Komut Satırı ekranı otomatik olarak kapanır
 **FakeDbContext** sınıfı oluşturulur. **FakeDbContext** sınıfı sadece
 **OnModelCreating** için geçici olarak oluşturulur. Buradan oluşan
 ilişkileri gerek duyulursa **DataAccess\\Concrete\\Configurations**
-altında ayrı sınıflar oluşturarak kullanmaya yarar.
+altında kopyala, yapıştır yöntemiyle ayrı sınıflar oluşturarak kullanmaya yarar.
 
 ![](./media/image12.png)
 

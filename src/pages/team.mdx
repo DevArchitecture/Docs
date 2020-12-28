@@ -1,0 +1,42 @@
+---
+id: team
+title: Team
+---
+
+import TeamProfileCard from '@site/src/components/TeamProfileCard';
+
+export function TeamProfileCardCol(props) {
+  return (
+    <TeamProfileCard {...props} className={'col col--4 margin-bottom--lg'} />
+  );
+} 
+
+## Active Team
+
+The DevArchitecture team works.
+
+<div className="row">
+ <TeamProfileCardCol
+    name="Engin Demiroğ"
+    githubUrl="https://github.com/engindemirog"
+    linkedinUrl="https://www.linkedin.com/in/engindemirog/">   
+  </TeamProfileCardCol>
+  <TeamProfileCardCol
+    name="Murat Kurtboğan"
+    githubUrl="https://github.com/kurtbogan88"
+    linkedinUrl="https://www.linkedin.com/in/murat-kurtbogan-00691561/">    
+  </TeamProfileCardCol> 
+  <TeamProfileCardCol
+    name="Kerem Varış"
+    githubUrl="https://github.com/keremvaris"
+    linkedinUrl="https://www.linkedin.com/in/keremvaris/">   
+  </TeamProfileCardCol>
+</div>
+
+## Acknowledgements
+
+ <TeamProfileCardCol
+    name="Halil İbrahim Duymaz"
+    githubUrl="https://github.com/irpg7"
+    linkedinUrl="https://www.linkedin.com/in/halil-ibrahim-duymaz-b42a66184/">    
+  </TeamProfileCardCol>
