@@ -40,7 +40,7 @@ Eğer IDE'den örneğin *Staging*'e migration yapılacaksa
 
 1. *WebAPI* projesi tanımlanmamışsa projenin üzerinde sağ tıklanarak **Set as Startup Project** olarak tanımlanır.
 
-![](./media/image26.png)
+![](./media/image29.png)
 
 2. *Visual Studio 2019* **View** -> **Other Windows** menüsünden **Package Manager Console** ekranı açılır.
 
