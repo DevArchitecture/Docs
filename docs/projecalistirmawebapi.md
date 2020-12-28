@@ -10,6 +10,10 @@ değişkenlerinin yapısı alt başlıklarda açıklanmıştır.
 
 ![](./media/image16.png)
 
+Eğer bu konfigürasyonlar üzerinde değişiklik yapılmak istenirse **WebAPI** üzerinde sağ tıklanır. Açılan Menüden **Properties** menüsüne tıklanır. Açılan ekranda **Debug** tabından istenilen düzenleme yapılır.
+
+![](./media/image44.png)
+
 ## WebAPI
 
 ![](./media/image17.png)

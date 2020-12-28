@@ -3,7 +3,7 @@ id: projecalistirmaangular
 title: Proje Çalıştırma Angular ve WebAPI
 ---
 
-**WebAPI** projesi *Visual Studio* Geliştirme ortamında IDE üzerinden **Start** butonu yardmıyla ya da klavye üzerinden *F5* veya *CTRL + F5* tuşlarına basılarak çalıştırılır.
+**WebAPI** projesi *Visual Studio* Geliştirme ortamında IDE üzerinden **Start** butonu yardmıyla ya da klavye üzerinden *F5* veya *CTRL + F5* tuşlarına basılarak çalıştırılır. (bkz. [***Web Api Projesini Çalıştırma***](projecalistirmawebapi))
 
 ![](./media/image17.png)
 
