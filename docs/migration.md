@@ -11,6 +11,7 @@ export const Highlight = ({children, color}) => ( <span style={{
     }}>{children}</span> );
 
 
+
 Bir migration oluşturulmadan önce proje için bir ortam değişkeni
 seçilmelidir. Ortam değişkeni seçimi aşağıdaki komut setleri
 kullanılarak yapılır.
