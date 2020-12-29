@@ -4,6 +4,7 @@ module.exports = {
     'projecalistirmawebapi','projecalistirmaangular','projekatmanlari'
     ,'projegelistirmeyaklasimlari','testrutinleri','projeyayinlama'], 
     NasılYapılır: ['yenimodulrdbms'] ,
+    Gelişmiş:['cache','log','transaction','validation','multilanguage','elasticsearch','rabbitmq','entegrasyon'],
     Hakkımızda: ['mdx']
       
   },
