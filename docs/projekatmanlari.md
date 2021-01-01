@@ -1,6 +1,6 @@
 ---
 id: projekatmanlari
-title: Proje Katmanları
+title: Mimari Yapı
 ---
 
 Proje katmanları arasında bulunan hiyerarşi ve iş akışı aşağıdaki
