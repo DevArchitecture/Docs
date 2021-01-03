@@ -24,3 +24,8 @@ Belirli bir düzen sağlamak için **Adapters** klasörü altında **PersonServi
 Bu şekilde dış bir servis **DevArchitecture** mimari yapısına uygun çalışır ve metotlar tarafından erişilebilir hale getirilir.
 
 ### RESTful API Service Entegrasyonu
+
+**DevArchitecture** ile RESTful API Service entegrasyonu için **Refit** kütüphanesi kullanılır.
+
+![](./media/image61.png)
+
