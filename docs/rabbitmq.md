@@ -29,7 +29,7 @@ Aynı sınıfın Handle metotu içerisinde inject edilen  *_messageBrokerHelper.
 
 ![](./media/image83.png)
 
-
+### Sonuç
 Bu metot çağırıldığında otomatik olarak **RabbitMq**'ya belirtilen mesaj gönderilir.
 
 ![](./media/image84.png)
