@@ -17,7 +17,7 @@ Gerekli ayarları tanımlı olarak gelir. **WebAPI** projesi altında bulunan **
 
 ![](./media/image80.png)
 
-Aynı sınıfın Handle metotu içerisinde inject edilen  *_messageBrokerHelper.***QueueMessage** metotu çağırılır. Bu metot içine metin bazlı ifade alabilir.
+Aynı sınıfın Handle metotu içerisinde inject edilen  *_messageBrokerHelper.* **QueueMessage** metotu çağırılır. Bu metot içine metin bazlı ifade alabilir.
 
 ![](./media/image80.png)
 
