@@ -9,4 +9,4 @@ title: Veri Tabanı Altyapısı
 -   Ön Tanımlı olarak **InMemoryDb, PostgreSql** ve **Microsoft Sql
     Server** desteği ile hazır olarak gelmektedir.
 
--   **MongoDB** desteği.
+-   İlişkisel veritabanlarının yanı sıra  **MongoDB** desteği ile nosql veritabanları ile çalışabilme imkanı sunar
