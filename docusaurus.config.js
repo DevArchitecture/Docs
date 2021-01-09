@@ -8,7 +8,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'DevArchitecture', // Usually your GitHub org/user name.
   projectName: 'DevArchitecture', // Usually your repo name.
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve('docusaurus-lunr-search'),{
+    languages: ['tr']
+  }],
   themeConfig: {
     navbar: {
       title: 'DevArchitecture',
