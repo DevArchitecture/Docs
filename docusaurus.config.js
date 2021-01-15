@@ -26,8 +26,9 @@ module.exports = {
         },       
         {
           href: 'https://github.com/DevArchitecture',
-          label: 'DevArchitecture GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'DevArchitecture GitHub',
         },
       ],
     },
