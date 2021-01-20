@@ -17,3 +17,5 @@ ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Ancak
 -   Nodejs (**Front-end için opsiyonel**)
 
 -   Angular UI için VsCode (**Front-end için opsiyonel**)
+
+-   React UI yakında...

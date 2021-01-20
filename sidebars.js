@@ -5,6 +5,7 @@ module.exports = {
     ,'projegelistirmeyaklasimlari','testrutinleri','projeyayinlama'], 
     NasılYapılır: ['yenimodulrdbms'] ,
     Gelişmiş:['cache','log','transaction','validation','multilanguage','elasticsearch','rabbitmq','entegrasyon'],
+    CodeGenerator:['codegen'],
     Hakkımızda: ['mdx']
       
   },
