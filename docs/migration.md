@@ -59,7 +59,7 @@ Migrations/Pg**
 
 **Update-Database -context ProjectDbContext**
 
-### Komut Satırı üzerinden Migration
+### Alternatif olarak komut satırı üzerinden migration
 
 **dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context ProjectDbContext
 \--output-dir Migrations/Pg**
@@ -96,7 +96,7 @@ Migrations/Ms**
 
 **Update-Database -context MsDbContext**
 
-### Komut Satırı üzerinden Migration
+### Alternatif olarak komut satırı üzerinden migration
 
 **dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context MsDbContext
 \--output-dir Migrations/Ms**
