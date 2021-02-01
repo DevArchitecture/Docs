@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'SOLID',
+    title: 'DevArchitecture',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -20,26 +20,23 @@ const features = [
     ),
   },
   {
-    title: 'Clean Code',
+    title: 'Sürdürülebilir',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        DevArchitecture CQRS (Command Query Responsibility Segregation) ve 
-        AOP (Aspect Oriented Programming) yaklaşımını benimseyen, SOLID prensiplerini ve 
-        Temiz Mimari yöntemlerini odağında bulunduran, modüler PnP (Plug and Play) 
-        mimarisine uygun hızlı yazılım geliştirme alt yapısıdır.
+        DevArchitecture yeni bir proje veya dönüşüm projeleri için sürdürülebilir bir altyapı sağlar. 
+        Tahmini ilk 5 aylık standartlara uygun geliştirme altyapısı süresini ortadan kaldırır.
+        Bunların tamamını yapmak, kurumsal hafızayı korumak DevArchitecture için odak noktasıdır.
       </>
     ),
   },
   {
-    title: 'Plug and Play Architecture',
+    title: 'Plug & Play Mimari',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        DevArchitecture CQRS (Command Query Responsibility Segregation) ve 
-        AOP (Aspect Oriented Programming) yaklaşımını benimseyen, SOLID prensiplerini ve 
-        Temiz Mimari yöntemlerini odağında bulunduran, modüler PnP (Plug and Play) 
-        mimarisine uygun hızlı yazılım geliştirme alt yapısıdır.
+        Yeni özellik eklemek, mevcut bir özellikten vazgeçmek oldukça kolaydır. Bağımlılıkları minimum seviyede tutar. 
+        Öyle ki, sistemlerin DevArchitecture'ın kendisine bağımlılığı dahi minimum seviyededir. 
       </>
     ),
   }, 
