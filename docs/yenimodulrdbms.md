@@ -1,6 +1,6 @@
 ---
 id: yenimodulrdbms
-title: Yeni Modül Oluşturma (RDBMS)
+title: Modül Oluşturma (RDBMS)
 ---
 ### İlişkisel Veri Tabanı 
 
