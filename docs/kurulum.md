@@ -12,7 +12,7 @@ ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Bununla berab
 
 -   Visual Studio 2019 ve üzeri
 
--   .net 5 ve üzeri
+-   .NET 5 ve üzeri
 
 -   Nodejs (**Front-end için opsiyonel**)
 
