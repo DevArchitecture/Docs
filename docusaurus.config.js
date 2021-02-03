@@ -1,6 +1,6 @@
 module.exports = {
   title: 'DevArchitecture',
-  tagline: 'Open Source Rapid Application Framework for .Net 5',
+  tagline: '.NET 5 ve Sonrası İçin Açık Kaynak Kodlu Hızlı Uygulama Geliştirme Çatısı',
   url: 'https://DevArchitecture.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
