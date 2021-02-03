@@ -16,7 +16,7 @@ yazılım geliştirme alt yapısıdır.
 
 **DevArchitecture**, güçlü ve esnek mimarisi bakımından bireysel,
 küçük-orta ölçekli yazılım evleri ve kurumsal yazılım takımları için
-uygun bir yazılım geliştirme alt yapıdır.
+uygun bir yazılım geliştirme alt yapısıdır.
 
 **.NET 5+,** **ASP.NET Core**, **Entity Framework Core** ve
 **MongoDB** yapılarının gücünü kullanır. Tanımlı olarak **InMemoryDb**,
