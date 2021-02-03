@@ -1,6 +1,6 @@
 ---
 id: mdx
-title: Powered by DevArchitecture
+title: Powered by SolidTeam
 ---
 
-# Powered by DevArchitecture
+***DevArchitecture*** bir **SolidTeam** ürünüdür.
