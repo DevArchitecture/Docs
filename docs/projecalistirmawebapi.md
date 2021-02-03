@@ -44,7 +44,7 @@ veya **Ms Sql Server** desteğiyle birlikte çalışır. Bu veri tabanlarıyla
 gerekir **IIS_Staging** ortam değişkeni **DevArchitecture** projesine özel
 olarak tanımlanmış bir ortam değişkenidir. ***Geliştirici*** ve ***Demo*** ortamı
 için tavsiye edilen ortam değişkenidir. **WebAPI** projesinde bulunan
-**appsettings.Staging.json** dosyası içinden veritabanı bağlantı
+**appsettings.Staging.json** dosyası içinden veri tabanı bağlantı
 cümleleri mevcut konfigürasyonlara göre düzenlenir.
 
 ![](./media/image18.png)
@@ -57,7 +57,7 @@ için gerekli kurulumların ve konfigürasyonların yapılmış olması gerekir
 **IIS_Production** ortam değişkeni **DevArchitecture** projesine özel olarak
 tanımlanmış bir ortam değişkenidir. ***Canlı Yayın*** ortamı için tavsiye
 edilen ortam değişkenidir. **WebAPI** projesinde bulunan
-**appsettings.Production.json** dosyası içinden veritabanı bağlantı
+**appsettings.Production.json** dosyası içinden veri tabanı bağlantı
 cümleleri mevcut konfigürasyonlara göre düzenlenir.
 
 ![](./media/image19.png)

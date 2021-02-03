@@ -30,7 +30,7 @@ bağlıdır. Uygulama yayınlama öncesi testler çalıştırılarak bir hatanı
 olup olmadığının kontrol edilmesi daha sağlıklı bir SDLC ortamı
 sağlayacaktır.
 
-**Not:** Mock Data gerektiren test senaryolarda geliştirici Mock
+**Not:** Mock Data gerektiren test senaryolarında geliştirici Mock
 Data'yı tanımlamak zorundadır. **DevArchitecture Code Generator** bu
 alanları **özellikle** yorum satırına alarak oluşturmaktadır.
 Geliştiricinin ilgili sınıfa ait bu alanları hem incelemesi hem de

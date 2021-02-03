@@ -21,10 +21,10 @@ uygun bir yazılım geliştirme alt yapıdır.
 **.net 5+,** **Asp.Net Core**, **Entity Framework Core** ve
 **MongoDB** yapılarının gücünü kullanır. Tanımlı olarak **InMemoryDb**,
 **PostgreSql**, **MsSql** ve **MongoDB** desteğiyle birlikte gelir. Tek satırlık
-bir konfigürasyon değişimi ile veritabanı alt yapısı geçişi
+bir konfigürasyon değişimi ile veri tabanı alt yapısı geçişi
 sağlanabilir.
 
-**Front-End** teknolojileri ile kullanıma hazır bir yapı sunar.
+**Front-End** teknolojileri ile kullanıma hazır bir alt yapı sunar.
 
 Gelişmiş bir **Kullanıcı Yönetimi** ve **Çoklu Dil Desteği** ile
 birlikte gelir. Kullanıcılar; ***kişi, komut, sorgu, grup ve ekran bazlı***

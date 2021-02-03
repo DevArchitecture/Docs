@@ -9,7 +9,7 @@ title: Proje Geliştirme Yaklaşımları
 
 1.  *İlişkisel veri tabanı*
 
-2.  *Dokuman odaklı veri tabanı*
+2.  *Doküman odaklı veri tabanı*
 
 ### İlişkisel Veri Tabanı 
 
@@ -26,7 +26,7 @@ aşağıdaki şekilde sunulmuştur.
 
 ![](./media/image6.png)
 
-### Dokuman Odaklı Veri Tabanı (Document Oriented DB-NoSQL) 
+### Doküman Odaklı Veri Tabanı (Document Oriented DB-NoSQL) 
 
 Code First yaklaşımında ilişkisel bir veri tabanı (RDBMS) varlık nesnesi
 oluşturulacaksa **Entities** katmanında **Concrete** klasörü altında
@@ -85,7 +85,7 @@ Layers** tıklanır.
 ![](./media/image14.png)
 
 İlgili metot ve sınıflar tüm katmanlar için yaratılır. Ayrıca gerekli
-olan Autofac DI Registeration işlemleri, **DbContext** için **DbSet**
+olan Autofac DI Registration işlemleri, **DbContext** için **DbSet**
 tanımları gibi gerekli tüm konfigürasyon **DevArchitecture Code
 Generator** tarafından gerekli sınıf ve metotlar içerisinde tanımlanır.
 

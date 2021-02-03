@@ -45,7 +45,7 @@ Bu işlem sonunda bir **Migration** ihtiyacı oluşmuşsa **Migration** işlemi 
 
 ![](./media/image35.png) 
 
-Bu sınıf aynı zamanda sistemin hangi veritabanı ile çalşacağını belirlemek için de kullanılır.
+Bu sınıf aynı zamanda sistemin hangi veri tabanı ile çalşacağını belirlemek için de kullanılır.
 
 **ConfigureDevelomentServices** metotu ön tanımlı olarak **InMemoryDb** ile çalışacak şekilde konfigüre edilmiştir.
 Herhangi bir değişiklik yapılması gerekmemektedir.

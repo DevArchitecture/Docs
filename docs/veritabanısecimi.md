@@ -10,7 +10,7 @@ title: Veri Tabanı Seçimi ve Yapılandırması
 
 ![](./media/image35.png) 
 
-Bu sınıf aynı zamanda sistemin hangi veritabanı ile çalşacağını belirlemek için de kullanılır.
+Bu sınıf aynı zamanda sistemin hangi veri tabanı ile çalışacağını belirlemek için de kullanılır.
 
 ### ConfigureDevelomentServices Sınıfı
 **ConfigureDevelomentServices** metotu ön tanımlı olarak **InMemoryDb** ile çalışacak şekilde konfigüre edilmiştir.
