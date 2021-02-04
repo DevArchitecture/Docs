@@ -16,7 +16,7 @@ istediğinizi buradan anlayacak ve ona göre kod üreteci ilgili metot ve
 sınıfları üretecektir. İlişkisel veri tabanı için örnek sınıf yazımı
 aşağıdaki şekilde sunulmuştur.
 
-![](./media/image30.png)
+![](./media/image107.png)
 
 Oluşturulan bu sınıf üzerinde sağ tıklanır ve **DevArchitecture Code Generator** Menüsüne ulaşılır.
 
