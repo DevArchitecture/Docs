@@ -50,11 +50,7 @@ module.exports = {
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/DevArchitecture',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/DevArchitecture',
-            },
+            },            
           ],
         },
         {
@@ -66,7 +62,7 @@ module.exports = {
             },            
             {
               label: 'LinkedIn',
-              href: 'https://linkedin.com/company/DevArchitecture',
+              href: 'https://linkedin.com/company/SolidTeam',
             },
           ],
         },
