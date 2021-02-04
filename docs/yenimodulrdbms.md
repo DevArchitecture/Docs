@@ -9,8 +9,9 @@ oluşturulacaksa **Entities** katmanında **Concrete** klasörü altında
 oluşturulmalıdır.
 
 İlişkisel veri tabanı kullanılacağı zaman yaratılan sınıfın **IEntity**
-Interface'inden implement edilmesi beklenmektedir. **DevArchitecture
-Code Generator** sizin ilişkisel bir veri tabanı ile çalışmak
+Interface'inden implement edilmesi beklenmektedir. ***Aynı zamanda oluşturulan sınıf ismiyle dosya isminin aynı olması bir zorunluluktur.*** 
+
+**DevArchitecture Code Generator** sizin ilişkisel bir veri tabanı ile çalışmak
 istediğinizi buradan anlayacak ve ona göre kod üreteci ilgili metot ve
 sınıfları üretecektir. İlişkisel veri tabanı için örnek sınıf yazımı
 aşağıdaki şekilde sunulmuştur.

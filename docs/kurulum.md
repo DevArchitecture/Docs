@@ -10,7 +10,7 @@ olmasını bekler. **DevArchitecture,** **Visual Studio Community 2019**
 ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Bununla beraber
 **VsCode** gibi ortamlarda kod geliştirme imkânı da sunar.
 
--   Visual Studio 2019 ve üzeri
+-   Visual Studio 2019 version 16.8.4 ve üzeri
 
 -   .NET 5 ve üzeri
 
