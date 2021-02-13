@@ -62,7 +62,7 @@ module.exports = {
             },            
             {
               label: 'LinkedIn',
-              href: 'https://linkedin.com/company/SolidTeam',
+              href: 'https://www.linkedin.com/company/solidteams',
             },
           ],
         },
