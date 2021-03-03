@@ -14,7 +14,9 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 Bir migration oluşturulmadan önce proje için bir ortam değişkeni
 seçilmelidir. Ortam değişkeni seçimi aşağıdaki komut setleri
-kullanılarak yapılır.
+kullanılarak yapılır. (***Ortam değişkenleri ve Connection String yönetimi detayı için bkz.*** [***Web Api Projesini Çalıştırma***](projecalistirmawebapi))
+
+(***Veri Tabanı Seçimi ve Yapılandırması için bkz. *** [***Veri Tabanı Seçimi ve Yapılandırması***](veritabanisecimi))
 
 **DevArchitrecture** ile **Migration Yönetimi** için iki tip ortam değişkeni bulunmaktadır bunlar;
 
@@ -100,6 +102,41 @@ Migrations/Ms**
 
 **dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context MsDbContext
 \--output-dir Migrations/Ms**
+
+## Oracle
+
+*Oracle* üzerinde migration çalıştırmak için sırasıyla
+aşağıdaki komutlar çalıştırılır.
+
+### IDE üzerinden Migration
+
+Eğer IDE'den örneğin staging'e migration yapılacaksa
+
+1. *WebAPI* projesi tanımlanmamışsa projenin üzerinde sağ tıklanarak Set as Startup Project olarak tanımlanır.
+
+![](./media/image29.png)
+
+2. *Visual Studio 2019* **View** -> **Other Windows** menüsünden **Package Manager Console** ekranı açılır.
+
+![](./media/image27.png)
+
+3. *Default Project* **DataAccess** projesi seçilir ve aşağıda bulunan komutlar bu ekran üzerinde çalıştırılır.
+
+![](./media/image28.png) 
+
+**$env:ASPNETCORE_ENVIRONMENT=<Highlight color="#2962FF">'Staging'</Highlight>**
+
+**Add-Migration <Highlight color="#FF0000">InitialCreate</Highlight> -context OracleDbContext -OutputDir
+Migrations/Ora**
+
+**$env:ASPNETCORE_ENVIRONMENT=<Highlight color="#2962FF">'Staging'</Highlight>**
+
+**Update-Database -context MsDbContext**
+
+### Alternatif olarak komut satırı üzerinden migration
+
+**dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context OracleDbContext
+\--output-dir Migrations/Ora**
 
 ### Not:
 
