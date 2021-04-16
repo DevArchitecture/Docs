@@ -19,7 +19,7 @@ Gerekli ayarları tanımlı olarak gelir. **WebAPI** projesi altında bulunan **
 
 Aynı sınıfın Handle metotu içerisinde inject edilen  *_messageBrokerHelper.* **QueueMessage** metotu çağırılır. Bu metot içine metin bazlı ifade alabilir.
 
-![](./media/image80.png)
+![](./media/image81.png)
 
 **RabbitMq** üzerinde **Queues** sekmesi kontrol edilir.
 
