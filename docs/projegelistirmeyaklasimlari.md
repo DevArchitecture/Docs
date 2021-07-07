@@ -28,11 +28,11 @@ aşağıdaki şekilde sunulmuştur.
 
 ### Doküman Odaklı Veri Tabanı (Document Oriented DB-NoSQL) 
 
-Code First yaklaşımında ilişkisel bir veri tabanı (RDBMS) varlık nesnesi
+*Code First* yaklaşımında doküman odaklı bir veri tabanı (Document Oriented DB-NoSQL) varlık nesnesi
 oluşturulacaksa **Entities** katmanında **Concrete** klasörü altında
 oluşturulmalıdır.
 
-İlişkisel veri tabanı kullanılacağı zaman yaratılan sınıfın
+Doküman odaklı veri tabanı kullanılacağı zaman yaratılan sınıfın
 **DocumentDbEntity** abstract sınıfından miras alması beklenmektedir.
 **DevArchitecture Code Generator** sizin doküman odaklı bir veri tabanı
 ile çalışmak istediğinizi buradan anlayacak ve ona göre kod üreteci
