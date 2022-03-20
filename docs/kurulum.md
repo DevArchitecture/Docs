@@ -6,11 +6,11 @@ title: Kurulum ve Geliştirme Gereksinimleri
 ## Geliştirici Ortam Hazırlığı
 
 **DevArchitecture,** geliştirici ortamı için aşağıdaki kurulumların var
-olmasını bekler. **DevArchitecture,** **Visual Studio Community 2019**
+olmasını bekler. **DevArchitecture,** **Visual Studio Community 2022**
 ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Bununla beraber
 **VsCode** gibi ortamlarda kod geliştirme imkânı da sunar.
 
--   Visual Studio 2019 version 16.8.4 ve üzeri
+-   Visual Studio 2022 version 17.1.0 ve üzeri
 
 -   .NET 5 ve üzeri
 
