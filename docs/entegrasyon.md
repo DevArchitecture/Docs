@@ -108,3 +108,5 @@ Proje **IIS_Development** ortam değişkeni seçilerek çalıştırılır.
 Sonuç olarak **Swagger** ekranında ***getall*** metodu çalıştırılır ve tüm sonuçlar dış bir **RESTful API Service** üzerinden çağrılmış olur. 
 
 ![](./media/image78.png)
+
+**author:** Kerem VARIŞ

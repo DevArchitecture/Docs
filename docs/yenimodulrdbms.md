@@ -82,3 +82,5 @@ Bu katman dış dünyayla haberleşmenin yapıldığı ilk giriş noktasıdır. 
 Aşağıdaki ekran görüntüsüne erişildiğinde yeni oluşturulan modül artık kullanıma hazırdır.
 
 ![](./media/image43.png)
+
+**author:** Kerem VARIŞ

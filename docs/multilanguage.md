@@ -69,3 +69,5 @@ yapmaktadır. **API** ile iletişim **TranslationService** isimli bir sınıf
 **AngularUI** projesi ilk ayağa kalktığı zaman varsayılan dil **Türkçe** olduğu için **API**
 den **Türkçe** çevirileri getirmektedir. (**api/Translates/gettranslatesbylang?lang=tr-TR**) **Login** ekranında başka bir dil seçilmesi durumunda **API** den o dile ait çeviriler getirilir ve **Logout** oluncaya kadar seçilen dil ile ilgili çeviriler ekranda görülür.
 
+
+**author:** Kerem VARIŞ

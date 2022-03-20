@@ -24,3 +24,5 @@ Generator* **DevArchitecture** ekibi tarafından indirilmesi ve kullanılması
 tavsiye edilmektedir.
 ![](./media/image25.png)
 
+**author:** Kerem VARIŞ
+

@@ -37,3 +37,5 @@ Bu metot çağırıldığında otomatik olarak **RabbitMq**'ya belirtilen mesaj 
 Gönderilen mesajın detayı görüntülenmek istenirse **Queue** detayına gidilerek görüntülenir. .
 
 ![](./media/image85.png)
+
+**author:** Kerem VARIŞ

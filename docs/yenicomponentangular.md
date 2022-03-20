@@ -23,3 +23,6 @@ Oluşturulan *ng componentinin* sistemde çalışır hale getirilebilmesi için 
    
 ![](./media/image103.png)
 
+
+
+**author:** Kerem VARIŞ

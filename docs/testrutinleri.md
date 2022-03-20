@@ -39,3 +39,5 @@ düzenlemesi gerekmektedir. **DevArchitecture Code Generator** yorum satırları
 ![](./media/image101.png)
 
 **Örnek Mock Data Alanı**
+
+**author:** Kerem VARIŞ

@@ -69,3 +69,5 @@ cümleleri mevcut konfigürasyonlara göre düzenlenir.
 ***Swagger*** üzerinden **Auth** modülünde  **/api/Auth/login** adresi ve giriş bilgileri kullanılarak sisteme giriş yapılır.
 
 **Tebrikler!** Artık bir **DevArchitecture** geliştiricisi olarak aramıza **Hoşgeldiniz!**
+
+**author:** Kerem VARIŞ

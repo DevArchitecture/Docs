@@ -38,3 +38,5 @@ Herhangi bir değişiklik yapılması gerekmemektedir.
 [Download MsSql](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ![](./media/image41.png)
+
+**author:** Kerem VARIŞ

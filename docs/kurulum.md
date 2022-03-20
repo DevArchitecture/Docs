@@ -21,3 +21,6 @@ ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Bununla berab
 -   Angular UI için VsCode (**Front-end için opsiyonel**)
 
 -   React UI yakında...
+
+
+**author:** Kerem VARIŞ

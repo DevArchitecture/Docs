@@ -34,3 +34,5 @@ projenizi kodlamaya başlayabilirsiniz.
 
 Tebrikler! artık bir **DevArchitecture** geliştiricisi olmaya
 hazırsınız.
+
+**author:** Kerem VARIŞ

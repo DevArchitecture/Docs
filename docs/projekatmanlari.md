@@ -57,3 +57,5 @@ tüm API yüzeyi için sisteme giriş yapmış bir kullanıcı bilgisi bekler.
 
 *Angular* arayüzünün kurulumu için gerekli kurulum projesidir. ***DevArchitecture*** projesinin yeteneklerini görsel olarak sunabilmek ve geliştiricilere yol gösterici olması açısından kullanılmıştır. 
 (***Not: Kullanımı Opsiyoneldir.***)
+
+**author:** Kerem VARIŞ

@@ -17,3 +17,5 @@ Kullanımı şekildeki gibidir. **ValidationAspect** attribute içine ***SinifAd
 ![](./media/image56.png)
 
 **NOT: Bu sınıf içerisinde kesinlikle veriyi ve/veya veri tabanını doğrudan etkileyecek bir iş kodu yazılmamalıdır. Bu sınıf önyüz çatılarından gelen değerlerin doğrulması için kullanılmalıdır.**
+
+**author:** Kerem VARIŞ

@@ -79,3 +79,5 @@ Daha önce belirlediğimiz Uygulama havuzu seçilir.
 artık bir web browser marifetiyle **http://localhost/apitest/swagger/index.html** veya gerçek bir sunucu üzerindeyseniz **http{s}://<<ALAN_ADI>>/swagger/index.html** yazarak uygulamanızın çalışır halini test edebilirsiniz.
 
 ![](./media/image126.png)
+
+**author:** Kerem VARIŞ

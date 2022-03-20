@@ -144,3 +144,5 @@ Migrations/Ora**
 
 
 **<Highlight color="#2962FF">Mavi</Highlight> ile işaretlenen yerler şeçimli olarak değişiklik yapılması beklenen alanlardır.**
+
+**author:** Kerem VARIŞ

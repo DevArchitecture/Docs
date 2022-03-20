@@ -47,3 +47,5 @@ Referans kütüphanesi için aşağıdaki satır usingler arasına eklenir.
 Bu metot içine **string** olarak ilgili sınıfın **"Get"** metodunlarını tarayacağını belirten bir **pattern** alır. Bu metotların cache üzerinde işaretli değerlerini bulur, siler ve tekrar cache mekanizmasına ekler. Böylelikle yeni eklenen, güncellenen ve silinen kayıtlara uygun bir şekilde tekrar cache yapılmış olur.
 
 ![](./media/image48.png)
+
+**author:** Kerem VARIŞ

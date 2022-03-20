@@ -90,3 +90,6 @@ tanımları gibi gerekli tüm konfigürasyon **DevArchitecture Code
 Generator** tarafından gerekli sınıf ve metotlar içerisinde tanımlanır.
 
 ![](./media/image15.png)
+
+
+**author:** Kerem VARIŞ

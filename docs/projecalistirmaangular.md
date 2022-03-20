@@ -40,3 +40,5 @@ Bilgileri kullanılarak sisteme giriş yapılır.
 ![](./media/image24.png)
 
 **Tebrikler!** Artık bir **DevArchitecture** geliştiricisi olarak aramıza **Hoşgeldiniz!**
+
+**author:** Kerem VARIŞ

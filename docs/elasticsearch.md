@@ -63,3 +63,5 @@ sınıf tipinde ki nesneyi dönmektedir.
 ![](./media/image98.png)
 
 Örnek **ElasticSearch** Sonucu.
+
+**author:** Kerem VARIŞ

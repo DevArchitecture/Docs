@@ -1,6 +1,7 @@
 ---
 id: baslarken
 title: Başlarken
+author: Kerem VARIŞ
 hide_table_of_contents: true
 slug: /
 ---
@@ -34,3 +35,5 @@ olarak ***yetkilendirilebilir***. Kurumsal ve bireysel projelerde sorunsuz bir
 **DevArchitecture** **Code Generator** ile sadece veri tabanını temsil
 eden sınıfı yazar ve bütün katmanlar için üretilen kodlarla anında
 sisteminizi görsel olarak gösterebilir durumda olursunuz. Bu sayede hızlı müşteri ve çözüm ortaklarınızdan hızlı geri bildirimler alabilirsiniz.
+
+**author:** Kerem VARIŞ

@@ -8,3 +8,5 @@ title: Transaction Aspect Kullanımı
 
 ![](./media/image53.png)
 
+
+**author:** Kerem VARIŞ

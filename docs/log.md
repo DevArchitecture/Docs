@@ -19,3 +19,5 @@ title: Log Aspect Kullanımı
 Kullanılacak olan log konfigürasyonu **WebAPI -> appsettings.json** içerisinde yapılmaktadır.
 
 ![](./media/image52.png)
+
+**author:** Kerem VARIŞ
