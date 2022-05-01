@@ -1,6 +1,6 @@
 ---
 id: projeyayinlama
-title: Proje Yayınlama
+title: Proje Yayınlama(IIS)
 ---
 **IIS** (**Internet Information Services**) üzerinde yayınlanacak olan proje ***Solution Configurations*** menüsü üzerinden **Release** Moda alınır. 
 
