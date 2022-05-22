@@ -1,23 +1,27 @@
 ---
 id: log
-title: Log Aspect Kullanımı
+title: Log Aspect
 ---
 
-**LogAspect**'ler **Business -> Handlers -> <SınıfAdi>**  Command ve Query sınıflarında **Handle** metotları üzerinde **Attribute** olarak kullanılır. Kullanımı şekildeki gibidir.
+**LogAspects** are used as **Attributes** on **Handle** methods in **Business -> Handlers -> 'ClassName'** Command and Query classes. Usage is as follows.
 
-![](./media/image50.png)
+![](./../media/image50.png)
 
-**DevArchitecture** ile **LogAspect**; 
+**LogAspect** with **DevArchitecture**;
+
+It comes with support for
 1. **FileLogger**
 2. **PostgreSqlLogger**
 3. **MongoDbLogger**
 4. **LogstashLogger**
-5. **MSTeamsLogger** desteğiyle gelir. Ön tanımlı olarak FileLogger kullanılır.
+5. **MSTeamsLogger**
 
-![](./media/image51.png)
+By default, **FileLogger** is used.
 
-Kullanılacak olan log konfigürasyonu **WebAPI -> appsettings.json** içerisinde yapılmaktadır.
+![](./../media/image51.png)
 
-![](./media/image52.png)
+Log configuration to be used is done in **WebAPI -> appsettings.json**.
 
-**author:** Kerem VARIŞ
+![](./../media/image52.png)
+
+**authors:** Kerem VARIŞ, Veli GÖRGÜLÜ

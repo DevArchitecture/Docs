@@ -1,41 +1,42 @@
 ---
 id: rabbitmq
-title: RabbitMQ Kullanımı
+title: RabbitMQ
 ---
-### Tanım
-**DevArchitecture**, **RabbitMq** için **Producer** olarak çalışır. 
+### Definition
 
-### Konfigürasyon
-Gerekli ayarları tanımlı olarak gelir. **WebAPI** projesi altında bulunan ***appsettings.json*** dosyası içinde **MessageBrokerOptions** anahtarı altından ihtiyaç duyulursa **UserName**, **Password** ve **HostName** değişiklikleri yapılır.
+**DevArchitecture** works as **Producer** for **RabbitMq**.
 
-![](./media/image79.png)
+### Configuration
+Necessary settings are pre-defined. If needed, **UserName**, **Password** and **HostName** changes are made under the **MessageBrokerOptions** key in the **appsettings.json** file under the **WebAPI** project.
 
-### Kullanım
-**RabbitMq** altyapısına bir mesaj gönderilmek istenildiği zaman bir **Command** veya **Query** sınıfı içerisinde gerekli işlem yapılır. 
+![](./../media/image79.png)
 
-***IMessageBrokerHelper*** Interface'i ilgili sınıfın **constructor** metotuna **Inject** edilir.
+### Usage
+When a message is wanted to be sent to the **RabbitMq** infrastructure, the necessary action is taken in a **Command** or **Query** class.
 
-![](./media/image80.png)
+The **IMessageBrokerHelper** Interface is **injected** into the **constructor** method of the relevant class.
 
-Aynı sınıfın Handle metotu içerisinde inject edilen  *_messageBrokerHelper.* **QueueMessage** metotu çağırılır. Bu metot içine metin bazlı ifade alabilir.
+![](./../media/image80.png)
 
-![](./media/image81.png)
+The "**_messageBrokerHelper.QueueMessage**" method injected in the Handle method of the same class is called. This method can get text-based expressions.
 
-**RabbitMq** üzerinde **Queues** sekmesi kontrol edilir.
+![](./../media/image81.png)
 
-![](./media/image82.png)
+**Queues** tab is checked on **RabbitMq**.
 
-**Swagger** üzerinden ilgili metot çağrılır.
+![](./../media/image82.png)
 
-![](./media/image83.png)
+The corresponding method is called via **Swagger**.
 
-### Sonuç
-Bu metot çağırıldığında otomatik olarak **RabbitMq**'ya belirtilen mesaj gönderilir.
+![](./../media/image83.png)
 
-![](./media/image84.png)
+### Result
+When this method is called, the specified message is automatically sent to **RabbitMq**.
 
-Gönderilen mesajın detayı görüntülenmek istenirse **Queue** detayına gidilerek görüntülenir. .
+![](./../media/image84.png)
 
-![](./media/image85.png)
+If you want to view the details of the sent message, it is displayed by going to the **Queue** detail.
 
-**author:** Kerem VARIŞ
+![](./../media/image85.png)
+
+**authors:** Kerem VARIŞ, Veli GÖRGÜLÜ

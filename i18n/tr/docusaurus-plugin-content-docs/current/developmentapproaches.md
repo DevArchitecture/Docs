@@ -1,5 +1,5 @@
 ---
-id: projegelistirmeyaklasimlari
+id: developmentapproaches
 title: Proje Geliştirme Yaklaşımları
 ---
 
@@ -24,7 +24,7 @@ istediğinizi buradan anlayacak ve ona göre kod üreteci ilgili metot ve
 sınıfları üretecektir. İlişkisel veri tabanı için örnek sınıf yazımı
 aşağıdaki şekilde sunulmuştur.
 
-![](./media/image6.png)
+![](./../../../../media/image6.png)
 
 ### Doküman Odaklı Veri Tabanı (Document Oriented DB-NoSQL) 
 
@@ -43,18 +43,18 @@ Bu sınıflarda ilişkisel veritabanlarında kullanılan **Birincil Anahtar**
 **DocumentDbEntity** abstract sınıfı içinde **MongoDB** için **ObjectId
 anahtarı** miras olarak aktarılmaktadır.
 
-![](./media/image7.png)
+![](./../../../../media/image7.png)
 
 **MongoDB** için örnek sınıf yazımı aşağıdaki şekilde sunulmuştur.
 
-![](./media/image8.png)
+![](./../../../../media/image8.png)
 
 ## Database First
 
 Database First yaklaşımı için **DevArchitecture Code Generator**
 kullanılır.
 
-![](./media/image9.png)
+![](./../../../../media/image9.png)
 
 Açılan ekranda bağlanılacak veri tabanı ve bağlantı bilgileri
 tanımlanır. **DevArchitecture MsSqlServer** ve **PostgreSql** için
@@ -63,7 +63,7 @@ tanımlanır. **DevArchitecture MsSqlServer** ve **PostgreSql** için
 basılır. **Table Selection** tabında Veri Tabanı sınıfları oluşturulacak
 olan tablolar seçilir. Oluştur butonuna basılır.
 
-![](./media/image10.png)![](./media/image11.png)
+![](./../../../../media/image10.png)![](./../../../../media/image11.png)
 
 Aşağıdaki Komut Satırı ekranı otomatik olarak kapanır
 **Entities\\Conctere** Klasörü altında Veri Tabanı sınıfı ve
@@ -73,23 +73,23 @@ Aşağıdaki Komut Satırı ekranı otomatik olarak kapanır
 ilişkileri gerek duyulursa **DataAccess\\Concrete\\Configurations**
 altında kopyala, yapıştır yöntemiyle ayrı sınıflar oluşturarak kullanmaya yarar.
 
-![](./media/image12.png)
+![](./../../../../media/image12.png)
 
 Bu işlemin sonucunda oluşan veri tabanı sınıfı aşağıdaki gibi olmalıdır.
 
-![](./media/image13.png)
+![](./../../../../media/image13.png)
 
 Bu sınıf üzerinde tekrar sağ tıklanır. **DevArchitectureFw Generate All
 Layers** tıklanır.
 
-![](./media/image14.png)
+![](./../../../../media/image14.png)
 
 İlgili metot ve sınıflar tüm katmanlar için yaratılır. Ayrıca gerekli
 olan Autofac DI Registration işlemleri, **DbContext** için **DbSet**
 tanımları gibi gerekli tüm konfigürasyon **DevArchitecture Code
 Generator** tarafından gerekli sınıf ve metotlar içerisinde tanımlanır.
 
-![](./media/image15.png)
+![](./../../../../media/image15.png)
 
 
 **author:** Kerem VARIŞ

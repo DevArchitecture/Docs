@@ -1,5 +1,5 @@
 ---
-id: ortamkurulumu
+id: environmentsetup
 title: DevArchitecture Ortam Kurulumu
 ---
 
@@ -11,7 +11,7 @@ kurulur. Marketplace üzerinde 3 adet extension bulunmaktadır.
 ### NOT: 
 ***Bu kurumlar yapılırken Visual Studio Geliştirme ortamınızın kapalı olduğundan emin olunuz.***
 
-![](./media/image1.png)
+![](./../../../../media/image1.png)
 
 1.  *DevArchitecture WebAPI Şablon*
 
@@ -22,7 +22,7 @@ kurulur. Marketplace üzerinde 3 adet extension bulunmaktadır.
 **1** ve **2** numaralı şablonlardan istenilen veya her ikisi de indirilir. *Code
 Generator* **DevArchitecture** ekibi tarafından indirilmesi ve kullanılması
 tavsiye edilmektedir.
-![](./media/image25.png)
+![](./../../../../media/image25.png)
 
 **author:** Kerem VARIŞ
 

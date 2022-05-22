@@ -1,5 +1,5 @@
 ---
-id: projekatmanlari
+id: projectlayers
 title: Mimari Yapı
 ---
 
@@ -41,7 +41,7 @@ Projenizin tüm iş kurallarının yazılacağı, entegrasyon mekanizmalarının
 ## Tests
 
 Projenizin test katmanıdır. Tüm iş kuralı testleri burada ilgili
-birimler altında yazılır. ***DevArchitecture Code Generator*** ile test katmanı ve ilgili sınıflar için test setup ve rutinleri otomatik olarak hata vermeyecek şekilde oluşturulur. Ancak test rutinleri içerisinde bulunan açıklama satırları ve geliştirilecek olan algoritmaları değiştirmek geliştirici inisiyatifine bırakılır. [***Test Rutinleri***](testrutinleri)  başlığı altında detaylı olarak ele alınacaktır.
+birimler altında yazılır. ***DevArchitecture Code Generator*** ile test katmanı ve ilgili sınıflar için test setup ve rutinleri otomatik olarak hata vermeyecek şekilde oluşturulur. Ancak test rutinleri içerisinde bulunan açıklama satırları ve geliştirilecek olan algoritmaları değiştirmek geliştirici inisiyatifine bırakılır. [***Test Rutinleri***](testroutines)  başlığı altında detaylı olarak ele alınacaktır.
 
 ## WebAPI
 

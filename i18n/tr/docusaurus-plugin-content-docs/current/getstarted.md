@@ -1,5 +1,5 @@
 ---
-id: baslarken
+id: getstarted
 title: Başlarken
 author: Kerem VARIŞ
 hide_table_of_contents: true

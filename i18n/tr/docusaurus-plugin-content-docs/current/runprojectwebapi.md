@@ -1,5 +1,5 @@
 ---
-id: projecalistirmawebapi
+id: runprojectwebapi
 title: Proje Çalıştırma Web Api
 ---
 
@@ -8,15 +8,15 @@ title: Proje Çalıştırma Web Api
 ortam değişkeni seçimi yapılmalıdır. Ekran üzerinde görülen ortam
 değişkenlerinin yapısı alt başlıklarda açıklanmıştır.
 
-![](./media/image16.png)
+![](./../../../../media/image16.png)
 
 Eğer bu konfigürasyonlar üzerinde değişiklik yapılmak istenirse **WebAPI** üzerinde sağ tıklanır. Açılan Menüden **Properties** menüsüne tıklanır. Açılan ekranda **Debug** tabından istenilen düzenleme yapılır.
 
-![](./media/image44.png)
+![](./../../../../media/image44.png)
 
 ## WebAPI
 
-![](./media/image17.png)
+![](./../../../../media/image17.png)
 
 ### IIS Express
 
@@ -47,7 +47,7 @@ için tavsiye edilen ortam değişkenidir. **WebAPI** projesinde bulunan
 **appsettings.Staging.json** dosyası içinden veri tabanı bağlantı
 cümleleri mevcut konfigürasyonlara göre düzenlenir.
 
-![](./media/image18.png)
+![](./../../../../media/image18.png)
 
 ### IIS_Production
 
@@ -60,7 +60,7 @@ edilen ortam değişkenidir. **WebAPI** projesinde bulunan
 **appsettings.Production.json** dosyası içinden veri tabanı bağlantı
 cümleleri mevcut konfigürasyonlara göre düzenlenir.
 
-![](./media/image19.png)
+![](./../../../../media/image19.png)
 
 **Kullanıcı Adı:** admin@adminmail.com
 

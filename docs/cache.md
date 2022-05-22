@@ -1,51 +1,57 @@
 ---
 id: cache
-title: Cache ve Cache Remove Aspect Kullanımı
+title: Cache and Cache Remove Aspect
 ---
-### Ön Bilgi
-**DevArchitecture**  **Microsoft Memory Cache** ve **Redis Cache** desteğiyle gelir. Ön tanımlı olarak herhangi bir kurulum gerektirmemesi sebebiyle **Microsoft Memory Cache** tanımlı olarak gelir.
+### Preliminary information
 
-Kullanınım değişikliğin sağlamak için **Core Katmanında Core -> DependencyResolvers -> CoreModule.cs** sınıfı içerisinden 
+**DevArchitecture** comes with support for **Microsoft Memory Cache** and **Redis Cache**. It comes pre-defined with **Microsoft Memory Cache** as it does not require any installation.
 
-**using Core.CrossCuttingConcerns.Caching.Microsoft;** eklenerek
+To change its usage, go to **Core -> Dependency Resolvers -> Core Module.cs** class in Core Layer.
+
+Add **using Core.CrossCuttingConcerns.Caching.Microsoft;**
 
 **services.AddSingleton<ICacheManager, MemoryCacheManager>();**
 
-ya da 
+Or 
 
-**using Core.CrossCuttingConcerns.Caching.Redis;** eklenerek
+Add **using Core.CrossCuttingConcerns.Caching.Redis;**
 
-**services.AddSingleton<ICacheManager, RedisCacheManager>();** tanımıyla kullanılır.
+**services.AddSingleton<ICacheManager, RedisCacheManager>();**
 
 
-![](./media/image49.png)
+![](./../media/image49.png)
 
-**CacheAspect** ve **CacheRemoveAspcect** Attibuteleri için gerekli kütüphane ***Core Katmanı*** altından gelmektedir. 
-Referans kütüphanesi için aşağıdaki satır usingler arasına eklenir.
+The library required for **CacheAspect** and **CacheRemoveAspcect** Attributes comes from the **Core Layer**.
+For the reference library, the following line is added between the usings.
 
 **using Core.Aspects.Autofac.Caching;**
 
-### Cache Aspect Kullanımı
-**CacheAspect**'ler **Business -> Handlers -> <SınıfAdi> -> Queries** klasörü altında bulunan **Query** sınıfları içinde **Handle** metotları üzerinde **Attribute** olarak kullanılır.
+### Using Cache Aspect
 
+**Cache Aspects** are used as **Attributes** on **Handle** methods in **Query** classes located under **Business -> Handlers -> 'ClassName' -> Queries** folder.
 
-![](./media/image45.png)
+![](./../media/image45.png)
 
- Özellikle dönüş tipi ***IEnumerable*** ve alt tipleri (**List, Array vb.**) için kullanılması tavsiye edilir. 
- Kullanımı aşağıdaki görsel üzerinde gösterilmiştir.
+ It is especially recommended to use for return type ***IEnumerable*** and its subtypes
+ (**List, Array etc.**). Its use is shown on the image below.
 
-![](./media/image46.png)
+![](./../media/image46.png)
 
-**CacheAspect** attribute içine parametre olarak **duration** isminde **int** bir değer alır. Bu değer ön tanımlı olarak 60 dakikadır. Üzerinde kullanıldığı metotun önem derecesine ve mimari tasarımın gerekliliklerine göre süre artıralabilir veya azaltılabilir.
+It takes an **int** value named **duration** as a parameter in the **CacheAspect** attribute. This value is 60 minutes by default.
+The duration can be increased or decreased according to the importance of the method on which it is used and the
+requirements of the architectural design.
 
-### Cache Remove Aspect Kullanımı
+### Using Cache Remove Aspect
 
-**CacheRemoveAspect**'ler **Business -> Handlers -> <SınıfAdi> -> Commands** klasörü altında bulunan **Command** sınıfları içinde **Handle** metotları üzerinde **Attribute** olarak kullanılır.
+**CacheRemoveAspects** are used as **Attributes** on **Handle** methods in **Command** classes located under
+**Business -> Handlers -> 'ClassName' -> Commands** folder.
 
-![](./media/image47.png)
+![](./../media/image47.png)
 
-Bu metot içine **string** olarak ilgili sınıfın **"Get"** metodunlarını tarayacağını belirten bir **pattern** alır. Bu metotların cache üzerinde işaretli değerlerini bulur, siler ve tekrar cache mekanizmasına ekler. Böylelikle yeni eklenen, güncellenen ve silinen kayıtlara uygun bir şekilde tekrar cache yapılmış olur.
+This method takes a **pattern** as a **string** indicating that it will scan the **"Get"** methods of the relevant class.
+It finds the marked values of these methods on the cache, deletes them and adds them back to the cache mechanism.
+In this way, the newly added, updated and deleted records are cached again.
 
-![](./media/image48.png)
+![](./../media/image48.png)
 
-**author:** Kerem VARIŞ
+**authors:** Kerem VARIŞ, Veli GÖRGÜLÜ

@@ -1,12 +1,12 @@
 ---
-id: veritabani
+id: database
 title: Veri Tabanı Altyapısı
 ---
 
 -   **Entity Framework Core** destekleyen tüm veritabanları
     kullanılabilir.
 
--   Ön Tanımlı olarak **InMemoryDb, PostgreSql** ve **Microsoft SqlServer** desteği ile hazır olarak gelmektedir.
+-   Ön Tanımlı olarak **InMemoryDb, PostgreSql** ve **Microsoft Sql Server** desteği ile hazır olarak gelmektedir.
 
 -   İlişkisel veritabanlarının yanı sıra  **MongoDB** desteği ile NoSQL veritabanları ile çalışabilme imkanı sunar.
 

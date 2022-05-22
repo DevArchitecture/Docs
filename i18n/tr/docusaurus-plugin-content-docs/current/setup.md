@@ -1,5 +1,5 @@
 ---
-id: kurulum
+id: setup
 title: Kurulum ve Geliştirme Gereksinimleri
 ---
 

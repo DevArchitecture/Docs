@@ -5,39 +5,42 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate'
 
 const features = [
   {
-    title: 'DevArchitecture',
+    title: <Translate>DevArchitecture</Translate>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
-      <>
-        DevArchitecture CQRS (Command Query Responsibility Segregation) ve 
-        AOP (Aspect Oriented Programming) yaklaşımını benimseyen, SOLID prensiplerini ve 
-        Temiz Mimari yöntemlerini odağında bulunduran, modüler PnP (Plug and Play) 
-        mimarisine uygun hızlı yazılım geliştirme alt yapısıdır.
-      </>
+      <Translate>
+        DevArchitecture is a fast software development infrastructure suitable
+        for modular PnP (Plug and Play) architecture, adopting CQRS
+        (Command Query Responsibility Segregation) and AOP (Aspect Oriented Programming)
+        approaches, focusing on SOLID principles and Clean Architecture methods.
+      </Translate>
     ),
   },
   {
-    title: 'Sürdürülebilir',
+    title: <Translate>Sustainable</Translate>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
-      <>
-        DevArchitecture yeni bir proje veya dönüşüm projeleri için sürdürülebilir bir altyapı sağlar. 
-        Tahmini ilk 5 aylık standartlara uygun geliştirme altyapısı süresini ortadan kaldırır.
-        Bunların tamamını yapmak, kurumsal hafızayı korumak DevArchitecture için odak noktasıdır.
-      </>
+      <Translate>
+        DevArchitecture provides a sustainable infrastructure for a new project
+        or conversion projects. Eliminates the estimated first 5 months of development
+        infrastructure time to standards. Doing all of this, preserving corporate memory
+        is a focus for DevArchitecture.
+      </Translate>
     ),
   },
   {
-    title: 'Plug & Play Mimari',
+    title: <Translate>Plug & Play Architecture</Translate>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
-      <>
-        Yeni özellik eklemek, mevcut bir özellikten vazgeçmek oldukça kolaydır. Bağımlılıkları minimum seviyede tutar. 
-        Öyle ki, sistemlerin DevArchitecture'ın kendisine bağımlılığı dahi minimum seviyededir. 
-      </>
+      <Translate>
+        Adding a new feature or leaving an existing feature is pretty easy.
+        Keeps dependencies to a minimum. So much so that even the dependency
+        of the systems on DevArchitecture itself is minimal.
+      </Translate>
     ),
   }, 
 ];
@@ -59,15 +62,16 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
+  var tagline = <Translate>Open Source Rapid Application Framework for .Net 5</Translate>;
   const {siteConfig = {}} = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Open Source Rapid Application Framework for .Net 5">
+      description={tagline}>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">{tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -75,7 +79,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Hızlı Başlangıç
+              <Translate>Get Started</Translate>
             </Link>
           </div>
         </div>

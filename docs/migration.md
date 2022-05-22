@@ -1,6 +1,6 @@
 ---
 id: migration
-title: Migration Yönetimi
+title: Migration Management
 ---
 
 export const Highlight = ({children, color}) => ( <span style={{
@@ -12,20 +12,20 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 
 
-Bir migration oluşturulmadan önce proje için bir ortam değişkeni
-seçilmelidir. Ortam değişkeni seçimi aşağıdaki komut setleri
-kullanılarak yapılır. (***Ortam değişkenleri ve Connection String yönetimi detayı için bkz.*** [***Web Api Projesini Çalıştırma***](projecalistirmawebapi))
+An environment variable must be selected for the project before a migration can be created.
+Environment variable selection is done using the following command sets. 
+(***For details of environment variables and Connection String management, see.*** [***Running the Web API Project***](runprojectwebapi))
 
-(***Veri Tabanı Seçimi ve Yapılandırması için bkz. *** [***Veri Tabanı Seçimi ve Yapılandırması***](veritabanisecimi))
+(***For Database Selection and Configuration, see. *** [***Database Selection and Configuration***](databaseselection))
 
-**DevArchitrecture** ile **Migration Yönetimi** için iki tip ortam değişkeni bulunmaktadır bunlar;
+There are two types of environment variables for **Migration Management** with **DevArchitecture**;
 
 -   **Staging**
 
 -   **Production**
 
-Yukarıda belirtilen ortam değişkenleri için migration yapılacaksa seçim
-yapılarak aşağıdaki komut örnekleri çalıştırılır.
+If migration will be made for the environment variables mentioned above,
+the following command examples are run after the selection is made.
 
 **$env:ASPNETCORE_ENVIRONMENT=<Highlight color="#FF0000">'Staging'</Highlight>**
 
@@ -33,24 +33,23 @@ yapılarak aşağıdaki komut örnekleri çalıştırılır.
 
 ## PostgreSql
 
-*PostgreSql* üzerinde migration çalıştırmak için sırasıyla aşağıdaki
-komutlar çalıştırılır.
+To run migration on *PostgreSql*, run the following commands respectively.
 
-### IDE üzerinden Migration
+### Migration via IDE
 
-Eğer IDE'den örneğin *Staging*'e migration yapılacaksa
+If migration will be done via IDE, for example to *Staging*;
 
-1. *WebAPI* projesi tanımlanmamışsa projenin üzerinde sağ tıklanarak **Set as Startup Project** olarak tanımlanır.
+1. If the *WebAPI* project is not defined, it is defined as **Set as Startup Project** by right-clicking on the project.
 
-![](./media/image29.png)
+![](./../media/image29.png)
 
-2. *Visual Studio 2019* **View** -> **Other Windows** menüsünden **Package Manager Console** ekranı açılır.
+2. The **Package Manager Console** screen opens from the *Visual Studio 2019* **View** -> **Other Windows** menu.
 
-![](./media/image27.png)
+![](./../media/image27.png)
 
-3. *Default Project* **DataAccess** projesi seçilir ve aşağıda bulunan komutlar bu ekran üzerinde çalıştırılır.
+3. The *Default Project* **DataAccess** project is selected and the commands below are run on this screen.
 
-![](./media/image28.png) 
+![](./../media/image28.png) 
 
 **$env:ASPNETCORE_ENVIRONMENT=<Highlight color="#2962FF">'Staging'</Highlight>**
 
@@ -61,7 +60,7 @@ Migrations/Pg**
 
 **Update-Database -context ProjectDbContext**
 
-### Alternatif olarak komut satırı üzerinden migration
+### Alternatively, migration via command line
 
 **dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context ProjectDbContext
 \--output-dir Migrations/Pg**
@@ -70,24 +69,23 @@ Migrations/Pg**
 
 ## MsSql
 
-*Microsoft Sql Server* üzerinde migration çalıştırmak için sırasıyla
-aşağıdaki komutlar çalıştırılır.
+To run migration on *Microsoft Sql Server*, run the following commands respectively.
 
-### IDE üzerinden Migration
+### Migration via IDE
 
-Eğer IDE'den örneğin staging'e migration yapılacaksa
+If migration will be done via IDE, for example to *Staging*;
 
-1. *WebAPI* projesi tanımlanmamışsa projenin üzerinde sağ tıklanarak Set as Startup Project olarak tanımlanır.
+1. If the *WebAPI* project is not defined, it is defined as **Set as Startup Project** by right-clicking on the project.
 
-![](./media/image29.png)
+![](./../media/image29.png)
 
-2. *Visual Studio 2019* **View** -> **Other Windows** menüsünden **Package Manager Console** ekranı açılır.
+2. The **Package Manager Console** screen opens from the *Visual Studio 2019* **View** -> **Other Windows** menu.
 
-![](./media/image27.png)
+![](./../media/image27.png)
 
-3. *Default Project* **DataAccess** projesi seçilir ve aşağıda bulunan komutlar bu ekran üzerinde çalıştırılır.
+3. The *Default Project* **DataAccess** project is selected and the commands below are run on this screen.
 
-![](./media/image28.png) 
+![](./../media/image28.png) 
 
 **$env:ASPNETCORE_ENVIRONMENT=<Highlight color="#2962FF">'Staging'</Highlight>**
 
@@ -98,31 +96,30 @@ Migrations/Ms**
 
 **Update-Database -context MsDbContext**
 
-### Alternatif olarak komut satırı üzerinden migration
+### Alternatively, migration via command line
 
 **dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context MsDbContext
 \--output-dir Migrations/Ms**
 
 ## Oracle
 
-*Oracle* üzerinde migration çalıştırmak için sırasıyla
-aşağıdaki komutlar çalıştırılır.
+To run migration on *Oracle*, run the following commands respectively.
 
-### IDE üzerinden Migration
+### Migration via IDE
 
-Eğer IDE'den örneğin staging'e migration yapılacaksa
+If migration will be done via IDE, for example to *Staging*;
 
-1. *WebAPI* projesi tanımlanmamışsa projenin üzerinde sağ tıklanarak Set as Startup Project olarak tanımlanır.
+1. If the *WebAPI* project is not defined, it is defined as **Set as Startup Project** by right-clicking on the project.
 
-![](./media/image29.png)
+![](./../media/image29.png)
 
-2. *Visual Studio 2019* **View** -> **Other Windows** menüsünden **Package Manager Console** ekranı açılır.
+2. The **Package Manager Console** screen opens from the *Visual Studio 2019* **View** -> **Other Windows** menu.
 
-![](./media/image27.png)
+![](./../media/image27.png)
 
-3. *Default Project* **DataAccess** projesi seçilir ve aşağıda bulunan komutlar bu ekran üzerinde çalıştırılır.
+3. The *Default Project* **DataAccess** project is selected and the commands below are run on this screen.
 
-![](./media/image28.png) 
+![](./../media/image28.png) 
 
 **$env:ASPNETCORE_ENVIRONMENT=<Highlight color="#2962FF">'Staging'</Highlight>**
 
@@ -133,16 +130,16 @@ Migrations/Ora**
 
 **Update-Database -context MsDbContext**
 
-### Alternatif olarak komut satırı üzerinden migration
+### Alternatively, migration via command line
 
 **dotnet ef migrations add <Highlight color="#FF0000">InitialCreate</Highlight> \--context OracleDbContext
 \--output-dir Migrations/Ora**
 
 ### Not:
 
-**<Highlight color="#FF0000">Kırmızı</Highlight> ile işaretlenen komut alanları her kullanımda değişiklik yapılması beklenen alanlardır.**
+**Command fields marked with <Highlight color="#FF0000">Red</Highlight> are the fields that are expected to be changed at each use.**
+
+**The areas marked in <Highlight color="#2962FF">Blue</Highlight> are the areas where optional changes are expected.**
 
 
-**<Highlight color="#2962FF">Mavi</Highlight> ile işaretlenen yerler şeçimli olarak değişiklik yapılması beklenen alanlardır.**
-
-**author:** Kerem VARIŞ
+**authors:** Kerem VARIŞ, Veli GÖRGÜLÜ
