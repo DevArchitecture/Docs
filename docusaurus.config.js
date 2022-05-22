@@ -1,6 +1,6 @@
-module.exports = {
+(module.exports = {
   title: 'DevArchitecture',
-  tagline: '.NET 5 ve Sonrası İçin Açık Kaynak Kodlu Hızlı Uygulama Geliştirme Çatısı',
+  tagline: 'Open Source Rapid Application Development Framework for .NET 5 and Later',
   url: 'https://DevArchitecture.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -8,7 +8,47 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'DevArchitecture', // Usually your GitHub org/user name.
   projectName: 'DevArchitecture', // Usually your repo name.
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        indexBaseUrl: true
+      }
+    ]
+  ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'tr'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      tr: {
+        label: 'Türkçe',
+      },
+    },
+  },
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          //editUrl:'https://github.com/DevArchitecture',
+        },
+        team: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+          'https://github.com/DevArchitecture',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: 'DevArchitecture',
@@ -16,12 +56,12 @@ module.exports = {
         {
           to: 'docs',
           activeBasePath: 'docs',
-          label: 'Dokümanlar',
+          label: 'Docs',
           position: 'right',
         }, 
         {
           to: 'team',         
-          label: 'Ekibimiz',
+          label: 'Team',
           position: 'right',
         },       
         {
@@ -30,22 +70,26 @@ module.exports = {
           className: 'header-github-link',
           'aria-label': 'DevArchitecture GitHub',
         },
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Dokümanlar',
+          title: 'Docs',
           items: [ 
             {
-              label: 'Dokümanlar',
+              label: 'Docs',
               to: 'docs/',
             },                   
           ],
         },
         {
-          title: 'Topluluk',
+          title: 'Community',
           items: [
             {
               label: 'Stack Overflow',
@@ -70,25 +114,4 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} DevArchitecture, Inc. Built with Docusaurus.`,
     },
   }, 
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          //editUrl:'https://github.com/DevArchitecture',
-        },
-        team: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/DevArchitecture',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
-};
+});

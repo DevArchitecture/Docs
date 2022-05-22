@@ -3,6 +3,6 @@ id: mdx
 title: Powered by SolidTeam
 ---
 
-***DevArchitecture*** bir **SolidTeam** ürünüdür.
+***DevArchitecture*** is a **SolidTeam** product.
 
-**author:** Kerem VARIŞ
+**authors:** Kerem VARIŞ, Veli GÖRGÜLÜ

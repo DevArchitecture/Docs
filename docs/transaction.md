@@ -1,12 +1,17 @@
 ---
 id: transaction
-title: Transaction Aspect Kullanımı
+title: Transaction Aspect
 ---
-**TransactionScopeAspectAsync**, **Business -> Handlers -> <SınıfAdi>** klasörü altında bulunan **Command ve Query** sınıfları içinde **Handle** metotları üzerinde **Attribute** olarak kullanılır. Örnek olarak aşağıda bulunan temsili sınıf kullanılmıştır. 
 
-**TransactionScopeAspectAsync** bir ***Command*** veya ***Query*** sınıfı içerisinde birden fazla **Command** yapısı çağırılması gerektiği zamanlarda kullanılır. Transactional operasyonlar içinde bulunan tüm metotlar çalıştırılır. Eğer işlemlerin tamamı başarılı olarak dönerse işlem başarılı olarak tamamlanır. Çağırılan metotlardan bir metot hata sonucu ile karşılaşırsa **Rollback** çalıştırılır ve başarılı olan tüm operasyonlar da geri alınarak işlem sonlandırılır. 
+**TransactionScopeAspectAsync** is used as **Attribute** on **Handle** methods in **Command and Query** classes located under
+**Business -> Handlers -> 'ClassName'** folder. The following representative class is used as an example.
 
-![](./media/image53.png)
+**TransactionScopeAspectAsync** is used when multiple **Command** structures need to be called within a **Command** or **Query** class.
+All methods in transactional operations are executed. If all transactions are successful, the transaction is completed
+successfully. If a method from the invoked methods encounters an error result, **Rollback** is run and all successful operations
+are rolled back and the process is terminated.
+
+![](./../media/image53.png)
 
 
-**author:** Kerem VARIŞ
+**authors:** Kerem VARIŞ, Veli GÖRGÜLÜ

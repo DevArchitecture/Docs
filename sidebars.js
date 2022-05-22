@@ -1,12 +1,12 @@
 module.exports = {
   someSidebar: {
-    DevArchitecture : ['baslarken','kurulum','veritabani','ortamkurulumu','yeniproje','veritabanisecimi','migration',
-    'projecalistirmawebapi','projecalistirmaangular','projekatmanlari'
-    ,'projegelistirmeyaklasimlari','testrutinleri','projeyayinlama', 'projeyayinlamaazure'], //,'projeyayinlama'
-    Nasıl_Yapılır: ['yenimodulrdbms','yenicomponentangular'] ,
-    Gelişmiş:['cache','log','transaction','validation','multilanguage','elasticsearch','rabbitmq','entegrasyon'],
+    'DevArchitecture' : ['getstarted','setup','database','environmentsetup','newproject','databaseselection','migration',
+    'runprojectwebapi','runprojectangular','projectlayers'
+    ,'developmentapproaches','testroutines','projectrelease', 'projectreleaseazure'], //,'projeyayinlama'
+    'How To': ['newmodulerdbms','newcomponentangular'] ,
+    'Advanced':['cache','log','transaction','validation','multilanguage','elasticsearch','rabbitmq','integration'],
     //CodeGenerator:['codegen'],
-    Hakkımızda: ['mdx']
+    'About Us': ['mdx']
       
   },
 };

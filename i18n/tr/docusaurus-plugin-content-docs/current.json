@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.DevArchitecture": {
+    "message": "DevArchitecture",
+    "description": "The label for category DevArchitecture in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.How To": {
+    "message": "Nasıl Yapılır",
+    "description": "The label for category How To in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Advanced": {
+    "message": "Gelişmiş",
+    "description": "The label for category Advanced in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.About Us": {
+    "message": "Hakkımızda",
+    "description": "The label for category About Us in sidebar someSidebar"
+  }
+}

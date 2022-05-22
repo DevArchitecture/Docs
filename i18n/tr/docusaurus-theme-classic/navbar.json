@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "DevArchitecture",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Dökümanlar",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Team": {
+    "message": "Ekibimiz",
+    "description": "Navbar item with label Team"
+  }
+}
