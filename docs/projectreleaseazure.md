@@ -1,6 +1,6 @@
 ---
 id: projectreleaseazure
-title: Proje Yayınlama(Azure)
+title: Project Publishing(Azure)
 ---
 The project to be published on **Azure** is selected from the **Solution Explorer** window and right-clicked.
 
