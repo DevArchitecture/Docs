@@ -1,6 +1,6 @@
 ---
 id: references
-title: References
+title: Referanslar
 ---
 
 

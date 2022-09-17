@@ -1,6 +1,6 @@
 ---
 id: changelog
-title: Change Log
+title: Sürüm Değişiklikleri
 ---
 
 
