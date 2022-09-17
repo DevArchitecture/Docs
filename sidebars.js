@@ -6,7 +6,8 @@ module.exports = {
     'How To': ['newmodulerdbms','newcomponentangular'] ,
     'Advanced':['cache','log','transaction','validation','multilanguage','elasticsearch','rabbitmq','integration'],
     //CodeGenerator:['codegen'],
-    'About Us': ['mdx']
+
+    'About Us': ['changelog','oldversion','references','mdx']
       
   },
 };
