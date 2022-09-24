@@ -27,7 +27,7 @@ Using the **Open Folder in File Explorer** option opened below, go to the **bin\
 
 ![](./../media/image113.png)
 
-It is entered by double-clicking on the **net5.0** folder in the opened folder.
+It is entered by double-clicking on the **net6.0** folder in the opened folder.
 
 ![](./../media/image114.png)
 
@@ -39,7 +39,7 @@ It opens with the help of a text editor such as notepad or notepad++.
 
 ![](./../media/image116.png)
 
-The processPath="**bin\Debug\net5.0\WebAPI.exe**" value
+The processPath="**bin\Debug\net6.0\WebAPI.exe**" value
 
 ![](./../media/image117.png)
 

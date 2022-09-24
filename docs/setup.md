@@ -11,7 +11,7 @@ In addition, it also offers the opportunity to develop code in environments such
 
 -   Visual Studio 2022 version 17.1.0 and above
 
--   .NET 5 and above
+-   .NET 6 and above
 
 -   Nodejs (**Optional for front-end**)
 
