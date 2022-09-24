@@ -17,7 +17,7 @@ approaches, focusing on **SOLID** principles and **Clean Architecture** methods.
 small-medium sized software houses and corporate software teams in terms of its
 powerful and flexible architecture.
 
-Leverages the power of **.NET 5+**, **ASP.NET Core**, **Entity Framework Core**,
+Leverages the power of **.NET 6+**, **ASP.NET Core**, **Entity Framework Core**,
 and **MongoDB** structures. It comes with support for **InMemoryDb**, **PostgreSql**,
 **MsSql** and **MongoDB**. Database infrastructure migration can be achieved with
 a single-line configuration change.
