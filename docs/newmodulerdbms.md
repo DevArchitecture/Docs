@@ -7,8 +7,13 @@ title: Creating a Module (RDBMS)
 If a relational database (*RDBMS*) entity object is to be created in the *Code First* approach,
 it should be created under the **Concrete** folder in the **Entities** layer.
 
-When a relational database will be used, the created class is expected to be implemented from the **IEntity** Interface.
-***At the same time, it is a must that the created class name and the file name be the same***.
+The following conditions must be met for the **DevArchitecture Code Generator** to work.
+
+- When using a relational database, the class created is expected to implement the **IEntity** Interface.
+- The class should not be **inherited** from a class with any properties.
+- No **constructor** should be defined in the class.
+- No **overrides** should be made in the class.
+- The class name should not be the **same** as the file name.
 
 **DevArchitecture Code Generator** will understand that you want to work with a relational
 database and accordingly the code generator will generate the relevant methods and classes.
