@@ -19,7 +19,7 @@ yazılım geliştirme alt yapısıdır.
 küçük-orta ölçekli yazılım evleri ve kurumsal yazılım takımları için
 uygun bir yazılım geliştirme alt yapısıdır.
 
-**.NET 5+,** **ASP.NET Core**, **Entity Framework Core** ve
+**.NET 7+,** **ASP.NET Core**, **Entity Framework Core** ve
 **MongoDB** yapılarının gücünü kullanır. Tanımlı olarak **InMemoryDb**,
 **PostgreSql**, **MsSql** ve **MongoDB** desteğiyle birlikte gelir. Tek satırlık
 bir konfigürasyon değişimi ile veri tabanı alt yapısı geçişi
