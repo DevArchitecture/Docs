@@ -17,8 +17,10 @@
   "Adding a new feature or leaving an existing feature is pretty easy. Keeps dependencies to a minimum. So much so that even the dependency of the systems on DevArchitecture itself is minimal.": {
     "message": "Adding a new feature or leaving an existing feature is pretty easy. Keeps dependencies to a minimum. So much so that even the dependency of the systems on DevArchitecture itself is minimal."
   },
+
   "Open Source Rapid Application Framework for .Net 7": {
     "message": ".NET 7 ve Sonrası İçin Açık Kaynak Kodlu Hızlı Uygulama Geliştirme Çatısı"
+
   },
   "Get Started": {
     "message": "Hızlı Başlangıç"

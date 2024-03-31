@@ -26,7 +26,7 @@ ve aşağıda açılan ***Open Folder in File Explorer*** seçeneği kullanılar
 
 ![](./../../../../media/image113.png)
 
-Açılan klasör içinde bulunan **net5.0** klasörüne çift tıklanarak girilir.
+Açılan klasör içinde bulunan **net6.0** klasörüne çift tıklanarak girilir.
 
 ![](./../../../../media/image114.png)
 
@@ -38,7 +38,7 @@ notepad veya notepad++ gibi bir metin editörü yardımıyla açılır.
 
 ![](./../../../../media/image116.png)
 
-processPath="**bin\Debug\net5.0\WebAPI.exe**"  değeri 
+processPath="**bin\Debug\net6.0\WebAPI.exe**"  değeri 
 
 ![](./../../../../media/image117.png)
 

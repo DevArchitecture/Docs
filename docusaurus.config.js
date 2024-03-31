@@ -1,6 +1,8 @@
 (module.exports = {
   title: 'DevArchitecture',
+
   tagline: 'Open Source Rapid Application Development Framework for .NET 7 and Later',
+
   url: 'https://DevArchitecture.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
