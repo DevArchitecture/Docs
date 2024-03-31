@@ -2,14 +2,18 @@
 id: newmodulerdbms
 title: Modül Oluşturma (RDBMS)
 ---
-### İlişkisel Veri Tabanı 
+### İlişkisel Veri Tabanı
 
 *Code First* yaklaşımında ilişkisel bir veri tabanı (*RDBMS*) varlık nesnesi
 oluşturulacaksa **Entities** katmanında **Concrete** klasörü altında
 oluşturulmalıdır.
 
-İlişkisel veri tabanı kullanılacağı zaman yaratılan sınıfın **IEntity**
-Interface'inden implement edilmesi beklenmektedir. ***Aynı zamanda oluşturulan sınıf ismiyle dosya isminin aynı olması bir zorunluluktur.*** 
+**DevArchitecture Code Generator**'un çalışabilmesi için aşağıdaki şartlar sağlanmalıdır.
+- İlişkisel veri tabanı kullanılacağı zaman yaratılan sınıfın **IEntity** Interface'inden implement edilmesi beklenmektedir.
+- Sınıf herhangi bir property'si bulunan bir sınıftan **kalıtılmamalıdır**.
+- Sınıf içinde harhangi bir **constructor** tanımlanmamalıdır.
+- Sınıf içinde herhangi bir **override** yapılmamalıdır.
+- Sınıf ismi ile dosya ismi **aynı** olmamalıdır.
 
 **DevArchitecture Code Generator** sizin ilişkisel bir veri tabanı ile çalışmak
 istediğinizi buradan anlayacak ve ona göre kod üreteci ilgili metot ve

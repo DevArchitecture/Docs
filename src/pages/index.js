@@ -62,7 +62,9 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  var tagline = <Translate>Open Source Rapid Application Framework for .Net 6</Translate>;
+
+  var tagline = <Translate>Open Source Rapid Application Framework for .Net 7</Translate>;
+
   const {siteConfig = {}} = context;
   return (
     <Layout
