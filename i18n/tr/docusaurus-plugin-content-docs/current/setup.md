@@ -12,6 +12,7 @@ ve üzerinde stabil olarak çalışacak şekilde ayarlanmıştır. Bununla berab
 
 -   Visual Studio 2022 version 17.1.0 ve üzeri
 
+
 -   .NET 7 ve üzeri
 
 -   Nodejs (**Front-end için opsiyonel**)
